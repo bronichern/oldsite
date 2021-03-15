@@ -10287,13 +10287,13 @@ body {
 }
 
 .btn-dark2 {
-  color: #fff;
-  background-color: #343a40;/*#343a40;*//*23272b*/
+  color: #343a40;
+  background-color: white;/*#343a40;*//*23272b*/
   border-color: #343a40;
 }
 .btn-dark2:hover {
   color: #fff;
-  background-color: #343a40;/*#23272b*/
+  background-color: gray;/*#23272b*/
   border-color: var(--dark-mint);
 }
 .btn-dark2:focus, .btn-dark2.focus {
@@ -10423,6 +10423,26 @@ body {
   background-color: white;
 }
 
+.article {
+  padding-left: 6%;
+  padding-right: 18%;
+  width: 83%;
+  float:center;
+}
+
+.publication-list {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li.menu-item {
+   margin:0 0 10px 0;   
+}
 
 .nav-link-top {
   display: block;
@@ -10518,8 +10538,8 @@ body {
 .sb-sidenav-btn {
 
   padding-left: 18px;
-  border-right: 5px solid var(--mint);  
-  /*background*/-color: var(--mint);
+  border-left: 5px solid var(--mint);  
+  /*background-color: var(--mint);*/
   /*border-left: 5px solid var(--mint);*/
 
 }
